@@ -97,15 +97,32 @@ public class ArrayCodelab {
         //commits efter et bestemt commit skal man trykke Reset current branch to here
         //for begge skal man op i git og trykke uncommited changes -> rollback efterfølgende
         //man kan ikke redo
-        //revert sammenfletter en tidligere og nyere funktion. nogle gange virker det,
-        //andre gange deler den koden op mellem =======. IntelliJ laver en dialog boks hvor
-        //man kan trykke accept yours for at få den gamle tilbage. Man kan også trykke accept theirs,
-        //og man kan trykke bestem selv hvad der skal sammenflettes. Den viser tre kolonner
-        //først den første kode, den højre side er den nye, og midten er kombination
-        //så kan man trykke på kryds ellre pile alt efter hvad man vil have overført.
-        //kan bruges hvis forskellige mennesker har forket og skal sammenflettes
-        //det sker i revert funktionen men også i push til hvis
-        //rød er for konflikter, grøn er for bare at tilføje noget ekstra uden problem
+        //revert sammenfletter en tidligere og nyere funktion. Umiddelbart går den bare tilbage til
+        //den tidligere funktion hvis der ikke er nogen konflikter. Man kan bruge det hvis man vil sammenflette
+        //tidligere commits
+        //reset sletter alt. Reset hard sletter alt
+        //soft reset sletter historikken men ikke filerne. Koden er den samme. Så man committer det samlet
+        //reset keep beholder det der ikke er committed - bruges ikke rigtig
+
+        //github
+        //origin er bare navnet på remote repository, som bare er repository uden for ens computer (her github)
+        //alternativer til github, gitlab, bitbucket, azure devops osv. De er alle projekstyringsprogrammer
+        //ud over at være remote repository
+        //push skubber ens repositiry ud, pull trækker det tilbage
+        //clone tager nyt projekt fra remote repository. Noget man ikke selv har lavet
+        //collaborators - folk med adgang til ens remote repository, de kan pushe. Alle kan pulle.
+        //det er fuld adgang eller ingen. Man kan ikke bestemme hvilke mapper
+        //fetch henter ikke filerne, men kigger om noget ligger der
+        //update i intellij gør det hele
+        //commit ofte men push når det er nødvendigt
+        //commit så snart man har oprettet projektet. Det giver tidslinje for projektet
+        //underviserne kan se tidspunkter for commit og de vil se man har committed regelmæssigt
+        //amend gør at den nye commit er i den tidligere i historikken, så man ikke får
+        //en masse commits i historikken
+        //for at hente en andens projekt skal man lave en ny og new -> open project with version control
+        //trykke push på den blå nedadgående pil i højre hjørne. Man kan vælge at hente den andens
+        //nyeste version (lægges lige før ens egen hvis man selv har ændret i den)
+        //eller trykke merge som tager de nye ændringer ind i den seneste version
     }
 
     boolean contains(int[] arr, int item) {
