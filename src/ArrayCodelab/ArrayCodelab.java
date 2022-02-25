@@ -80,6 +80,17 @@ public class ArrayCodelab {
     }
     void git (){
         //test commit
+        //test commmit to, commit kun .java filen
+        //java-klassefilen laves en ny hver gang man åbner så den er ligegyldig at gemme
+        //de andre filer er IntelliJ-specifikke så de er bare irriterende,
+        //og hvis folk der ikke bruger intellij downloader dem er det irriterende
+
+        //lav ny fil i roden (aller yderste mappe) som hedder .gitignore. Læg disse under:
+        //out/ - .class er under her
+        //.idea/
+        //*.iml
+        //de her tre dækker over alle de ting der ikke skal med
+        //awserdtfyguyhijikolp
     }
 
     boolean contains(int[] arr, int item) {
