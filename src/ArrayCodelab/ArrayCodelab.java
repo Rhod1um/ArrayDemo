@@ -106,8 +106,6 @@ public class ArrayCodelab {
         //kan bruges hvis forskellige mennesker har forket og skal sammenflettes
         //det sker i revert funktionen men også i push til hvis
         //rød er for konflikter, grøn er for bare at tilføje noget ekstra uden problem
-
-        //til revert
     }
 
     boolean contains(int[] arr, int item) {
