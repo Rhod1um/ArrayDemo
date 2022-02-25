@@ -92,6 +92,20 @@ public class ArrayCodelab {
         //de her tre dækker over alle de ting der ikke skal med
         //man comitter ikke kode man ikke ved om virker!
         //dog skal man dele noget der ikke virker med andre må man committe og push til github
+        //skal man slette et commit skal man gå ned i log og højre-klikke på
+        //enten den nyeste commit og trykke undo commit, og hvis man vil slette alle
+        //commits efter et bestemt commit skal man trykke Reset current branch to here
+        //for begge skal man op i git og trykke uncommited changes -> rollback efterfølgende
+        //man kan ikke redo
+        //revert sammenfletter en tidligere og nyere funktion. nogle gange virker det,
+        //andre gange deler den koden op mellem =======. IntelliJ laver en dialog boks hvor
+        //man kan trykke accept yours for at få den gamle tilbage. Man kan også trykke accept theirs,
+        //og man kan trykke bestem selv hvad der skal sammenflettes. Den viser tre kolonner
+        //først den første kode, den højre side er den nye, og midten er kombination
+        //så kan man trykke på kryds ellre pile alt efter hvad man vil have overført.
+        //kan bruges hvis forskellige mennesker har forket og skal sammenflettes
+        //det sker i revert funktionen men også i push til hvis
+        //rød er for konflikter, grøn er for bare at tilføje noget ekstra uden problem
     }
 
     boolean contains(int[] arr, int item) {
