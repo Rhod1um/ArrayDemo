@@ -87,10 +87,11 @@ public class ArrayCodelab {
 
         //lav ny fil i roden (aller yderste mappe) som hedder .gitignore. Læg disse under:
         //out/ - .class er under her
-        //.idea/
+        //.idea/ - .xml er under her
         //*.iml
         //de her tre dækker over alle de ting der ikke skal med
-        //awserdtfyguyhijikolp
+        //man comitter ikke kode man ikke ved om virker!
+        //dog skal man dele noget der ikke virker med andre må man committe og push til github
     }
 
     boolean contains(int[] arr, int item) {
