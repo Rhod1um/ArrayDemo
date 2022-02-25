@@ -78,6 +78,9 @@ public class ArrayCodelab {
             System.out.print(myArray[i]+" --");
         }
     }
+    void git (){
+        //test commit
+    }
 
     boolean contains(int[] arr, int item) {
         for (int n : arr) {
